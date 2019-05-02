@@ -1,21 +1,23 @@
 def create_an_empty_array
-  
+  new_array = []
+  new_array
 end
 
 def create_an_array
-  
+  new_array = [1,2,3,4]
+  new_array
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  array << element
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-  
+  array.
 end
 
 def remove_element_from_start_of_array(array)
